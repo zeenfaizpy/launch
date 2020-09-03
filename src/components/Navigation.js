@@ -5,8 +5,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import LogoImage from "./../assets/logo.png";
 
-import { Container } from "@material-ui/core";
-
 const useStyles = makeStyles((theme) => ({
     container: {
         display: "flex",

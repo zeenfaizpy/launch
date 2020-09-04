@@ -10,21 +10,34 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
     },
     value: {
-        fontSize: "3.5rem",
-        //fontFamily: "'Iceberg', cursive",
-        fontFamily: "'Fira Code', monospace",
+        fontSize: "3rem",
         lineHeight: 0.9,
+        fontFamily: 'zebulon',
         [theme.breakpoints.up("sm")]: {
-            fontSize: "7rem",
+            fontSize: "3rem",
         },
         [theme.breakpoints.up("md")]: {
-            fontSize: "10rem",
+            fontSize: "5rem",
         },
         [theme.breakpoints.up("lg")]: {
-            fontSize: "12rem",
+            fontSize: "7rem",
         },
     },
-    label: {},
+    label: {
+        fontSize: "0.5rem",
+        lineHeight: 0.9,
+        paddingTop: 15,
+        fontFamily: 'zebulon',
+        [theme.breakpoints.up("sm")]: {
+            fontSize: "0.5rem",
+        },
+        [theme.breakpoints.up("md")]: {
+            fontSize: "1rem",
+        },
+        [theme.breakpoints.up("lg")]: {
+            fontSize: "1.5rem",
+        },
+    },
 }));
 
 

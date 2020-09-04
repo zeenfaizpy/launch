@@ -1,6 +1,6 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
-import launchBg from './assets/launchBg.jpg'; // Import using relative path
+import launchBg1 from './assets/launchBg1.jpg';
 
 const theme = createMuiTheme({
     palette: {
@@ -35,24 +35,16 @@ const theme = createMuiTheme({
                 fontSize: "1.5rem",
             },
         },
-        fontFamily: [
-            "Saira Semi Condensed",
-            "Roboto",
-            "Helvetica",
-            "cursive",
-            "Arial",
-            "sans-serif",
-            "Iceberg",
-        ].join(","),
     },
     overrides: {
         MuiCssBaseline: {
           "@global": {
             body: {
-                backgroundImage: `url(${launchBg})`,
+                backgroundImage: `url(${launchBg1})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                fontFamily: 'zebulon'
             }
           }
         }

@@ -1,13 +1,13 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import CountDown from "../components/countDown";
-import Navigation from "./../components/Navigation";
+import Title from "./../components/Title";
 
 const Home = () => {
   return (
     <Container maxWidth="lg">
-        <Navigation data-testid="nav" />
         <CountDown />
+        <Title />
     </Container>
   );
 };

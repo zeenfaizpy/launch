@@ -3,16 +3,15 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
     divider: {
-        fontSize: "2.25rem",
-
+        fontSize: "2rem",
         [theme.breakpoints.up("sm")]: {
-        fontSize: "4rem",
+        fontSize: "2rem",
         },
         [theme.breakpoints.up("md")]: {
-        fontSize: "6rem",
+        fontSize: "3rem",
         },
         [theme.breakpoints.up("lg")]: {
-        fontSize: "7rem",
+        fontSize: "4rem",
         },
     },
 }));

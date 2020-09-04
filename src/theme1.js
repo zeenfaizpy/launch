@@ -2,7 +2,7 @@ import { createMuiTheme } from "@material-ui/core/styles";
 
 import launchBg1 from './assets/launchBg1.jpg';
 
-const theme = createMuiTheme({
+const theme1 = createMuiTheme({
     palette: {
         type: "dark",
         common: {
@@ -51,4 +51,4 @@ const theme = createMuiTheme({
     }
 });
 
-export default theme;
+export default theme1;

@@ -1,15 +1,22 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import CountDown from "../components/countDown";
-import Navigation from "./../components/Navigation";
+import Title from "./../components/Title";
 
-const Home = () => {
+import theme2 from "./../theme2";
+import { ThemeProvider } from "@material-ui/core/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
+
+const Home2 = () => {
   return (
-    <Container maxWidth="lg">
-        <Navigation data-testid="nav" />
-        <CountDown />
-    </Container>
+    <ThemeProvider theme={theme2}>
+        <CssBaseline />
+        <Container maxWidth="lg">
+            <CountDown />
+            <Title />
+        </Container>
+    </ThemeProvider>
   );
 };
 
-export default Home;
+export default Home2;

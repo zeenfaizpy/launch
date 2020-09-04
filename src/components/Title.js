@@ -41,7 +41,7 @@ const Title = () => {
     return (
         <section id="title" className={classes.section}>
             <div className={classes.container}>
-                <img src={LogoImage} alt="logo" width="220px" />
+                <img src={LogoImage} alt="logo" width="350px" />
             </div>
             <Typography component="h3" className={classes.title} style={{'paddingTop': 20}}>
                 Ghalib Satellite Launch

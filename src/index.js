@@ -5,16 +5,10 @@ import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter } from "react-router-dom";
-import theme from "./theme";
-import { ThemeProvider } from "@material-ui/core/styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
 
 ReactDOM.render(
     <BrowserRouter>
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <App />
-        </ThemeProvider>
+        <App />
     </BrowserRouter>,
     document.getElementById('root')
 );

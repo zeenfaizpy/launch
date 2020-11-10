@@ -57,7 +57,7 @@ const Timer = ({ launchTime }) => {
 
     return (
         <Grid container justify="space-between" className={container}>
-            <Grid item xs={3} className={timeBox}>
+            <Grid item xs={2} className={timeBox}>
                 <TimerItem value={currTime.days}>Days</TimerItem>
             </Grid>
             <Divider />

@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 
 const CountDown = () => {
     const { heading } = useStyles();
-    const launchTime = "2020-12-18 17:00:00";
+    const launchTime = "2020-12-30 00:00:00";
     return (
         <section id="countdown" className={heading}>
             <Timer launchTime={launchTime} />

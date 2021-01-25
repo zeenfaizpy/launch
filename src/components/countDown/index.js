@@ -1,5 +1,6 @@
 import React from "react";
 import Timer from "./timer";
+import Banner from './banner';
 import { makeStyles } from "@material-ui/core/styles";
 
 
@@ -21,10 +22,11 @@ const useStyles = makeStyles((theme) => ({
 
 const CountDown = () => {
     const { heading } = useStyles();
-    const launchTime = "2021-02-05 00:00:00";
+    // const launchTime = "2021-02-05 00:00:00";
     return (
         <section id="countdown" className={heading}>
-            <Timer launchTime={launchTime} />
+            {/* <Timer launchTime={launchTime} /> */}
+            <Banner />
         </section>
     );
 };

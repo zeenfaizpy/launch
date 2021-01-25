@@ -1,5 +1,5 @@
 import React from "react";
-import Timer from "./timer";
+// import Timer from "./timer";
 import Banner from './banner';
 import { makeStyles } from "@material-ui/core/styles";
 
